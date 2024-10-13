@@ -102,12 +102,12 @@
 
         #thumbnailContainer {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
             gap: 10px;
             justify-content: center;
             margin-top: 20px;
             width: 100%;
-            max-width: 600px;
+            max-width: 400px;
         }
 
         .thumbnail {
